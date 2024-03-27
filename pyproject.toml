@@ -11,7 +11,7 @@ APScheduler = "3.10.4"
 Flask = "3.0.2"
 gunicorn = "21.2.0"
 PyYAML = "6.0.1"
-semgrep = "1.66.0"
+semgrep = "1.66.2"
 jsonpatch = "1.33"
 cheroot = "10.0.0"
 
@@ -19,7 +19,7 @@ cheroot = "10.0.0"
 optional = false
 
 [tool.poetry.group.docs.dependencies]
-mkdocs-material = "9.5.14"
+mkdocs-material = "9.5.15"
 mike = "2.0.0"
 
 [tool.poetry.group.dev]
@@ -36,7 +36,7 @@ optional = false
 
 [tool.poetry.group.test.dependencies]
 pytest = "8.1.1"
-pytest-cov = "4.1.0"
+pytest-cov = "5.0.0"
 
 [build-system]
 requires = ["poetry-core"]
